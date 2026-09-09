@@ -655,16 +655,29 @@ footer p strong{
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.certificate-card h3 {
+#experience {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.experience-card {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card h3 {
     color: #1A304F;
-    font-size: 24px;
 }
 
-.certificate-organization {
-    font-weight: bold;
+.experience-card h4 {
+    font-size: 20px;
     color: #555;
 }
 
-.certificate-date {
-    color: #555;
+.experience-card p {
+    color: #666;
 }
